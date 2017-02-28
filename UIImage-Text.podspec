@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name                  = 'UIImage-Text'
-    s.version               = '1.0'
+    s.version               = '1.0.1'
     s.summary               = 'Add text to a UIImage.'
     s.license               = 'MIT'
     s.authors               = { 'Danilo Priore' => 'support@prioregroup.com' }
