@@ -13,6 +13,8 @@
 
 - (void)viewDidLoad
 {
+    [super viewDidLoad];
+    
     text.text = @"THIS IS MY DREAM!";
     image.image = [UIImage imageNamed:@"image.jpg"];
 }
