@@ -1,7 +1,22 @@
 UIImage+Text
 ============
 
-Add text to a UIImage
+Add text to a UIImage.
+
+``` objective-c
+
+    #import "UIImage+Text.h"
+
+    UIImage *img = [UIImage imageNamed:@"myimage.jpg"];
+    UIImageView *imageView = [[UIImageView alloc] initWithFrame:(CGRect){CGPointZero, img.size}];
+    imageView.image = [img addText:@"This is my text"
+                              XPos:80
+                              YPos:300
+                          fontName:@"Georgia-Bold"
+                          fontSize:46.0
+                         fontColor:[UIColor whiteColor]];
+
+```
 
 
 ===============================================================================

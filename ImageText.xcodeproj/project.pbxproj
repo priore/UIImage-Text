@@ -23,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F9BBF7B1E65852900D43D5A /* UIImage-Text.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = "UIImage-Text.podspec"; sourceTree = SOURCE_ROOT; };
+		9F9BBF7C1E65854100D43D5A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		9FEFF1DC172B382300DBF41E /* ImageText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageText.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FEFF1DF172B382300DBF41E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9FEFF1E1172B382300DBF41E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -104,6 +106,8 @@
 		9FEFF1E6172B382300DBF41E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9F9BBF7C1E65854100D43D5A /* README.md */,
+				9F9BBF7B1E65852900D43D5A /* UIImage-Text.podspec */,
 				9FEFF1E7172B382300DBF41E /* ImageText-Info.plist */,
 				9FEFF1E8172B382300DBF41E /* InfoPlist.strings */,
 				9FEFF1EB172B382300DBF41E /* main.m */,
@@ -312,6 +316,7 @@
 				9FEFF204172B382300DBF41E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
