@@ -7,8 +7,10 @@ Pod::Spec.new do |s|
     s.homepage              = 'https://github.com/priore/UIImage-Text'
     s.social_media_url      = 'https://twitter.com/danilopriore'
     s.source                = { git: 'https://github.com/priore/UIImage-Text.git', :tag => "v#{s.version}" }
-    s.ios.deployment_target = '7.0'
     s.requires_arc          = true
     s.source_files          = 'ImageText/UIImage+Text.{h,m}'
+	s.ios.deployment_target = '7.0'
     s.ios.framework         = 'Foundation', 'CoreGraphics', 'UIKit'
+	s.tvos.deployment_target = '9.0'
+    s.tvos.framework         = 'Foundation', 'CoreGraphics', 'UIKit'
 end
