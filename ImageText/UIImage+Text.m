@@ -2,9 +2,9 @@
 //  UIImage+Text.m
 //  ImageText
 //
-//  Created by Danilo Priore on 27/04/13.
-//  Copyright (c) 2013 Danilo Priore. All rights reserved.
-//  http://www.prioregroup.com
+//  Created by Priore on 27/04/13.
+//  Copyright (c) 2013 Priore. All rights reserved.
+//  https://github.com/priore
 //
 //  Short MIT License
 //
